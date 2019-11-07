@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>排名侠-seo长尾关键词优化工具-百度360上万个品牌词霸屏</title>
+<meta name="keywords" content="搜索排名,快速排名,关键词优化" />
+<meta name="description" content="排名侠，网总管旗下快速搜索排名优化产品。1天见效，每天3毛！网总管专注于网络推广、搜索排名优化、网站托管等服务，上市公司为您服务，值得托付。" />
+<link rel="stylesheet" type="text/css" href="css/index2.css">
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/head.css">
+<style  type="text/css">
+canvas {width: 100% !important;}
+#menu1 ul li.nav_02 span {background: #e84240;border-radius: 50px;color: #fff;background-position: left bottom;}
+</style>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+<!--自动识别跳转移动端开始-->
+<meta http-equiv="mobile-agent" content="format=xhtml;url=http://m.91wzg.com/seo.html">
+<script type="text/javascript">
+        function browserRedirect() {
+            var sUserAgent = navigator.userAgent.toLowerCase();
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+                  window.location.href="http://m.91wzg.com/qwtg.html";
+            } 
+        }
+        browserRedirect();
+</script>
+<!--自动识别跳转移动端结束-->
+
+<script type="text/javascript">
+       $(function(){
+  /*导航菜单-开始*/
+
+           var oTest = document.getElementsByClassName("donghua");//运行后p段落会变成div的子元素
+           $("#main_5").append(oTest);
+
+		  $("#menu1 li").prepend("<span></span>"); //Throws an empty span tag right before the a tag
+	
+	$("#menu1 li").each(function() { //For each list item...
+		var linkText = $(this).find("a").html(); //Find the text inside of the a tag
+		$(this).find("span").show().html(linkText); //Add the text in the span tag
+	}); 
+	
+	$("#menu1 li").hover(function() {	//On hover...
+		$(this).find("span").stop().animate({ 
+			marginTop: "-40" //Find the span tag and move it up 40 pixels
+		}, 500);
+	} , function() { //On hover out...
+		$(this).find("span").stop().animate({
+			marginTop: "0" //Move the span back to its original state (0px)
+		}, 500);
+          
+	});	
+
+
+		  /*导航菜单-结束*/
+		  
+		   
+       $(window).scroll(function(){
+          var st = $(this).scrollTop(); //滚动条高度
+          var wh = $(window).height();    //屏幕高度
+          
+          wztg1(st, wh); //网站托管1
+          wztg2(st, wh); //网站托管2
+          wztg3(st, wh); //优势
+          wztg4(st, wh); //哪些企业
+		  wztg5(st, wh);
+		  wztg6(st, wh);
+		  wztg7(st, wh);
+		  wztg8(st, wh);
+		  wztg9(st, wh);
+		  wztg10(st, wh);
+		  wztg11(st, wh);
+		  wztg12(st, wh);
+		  wztg13(st, wh);
+		   wztg14(st, wh);
+           wztg15(st, wh);
+           wztg17(st, wh);
+
+		            
+        }).trigger("scroll");;	
+      });
+   
+      function wztg1(st, wh){
+        var bt = $(".main_2").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+          $(".main_2").find(".tit1_1").addClass("effect-pic");
+          $(".main_2").find(".tit2").addClass("effect-pic2");
+		  $(".main_2").find(".tit3").addClass("effect-pic2");
+        }
+      }
+	  
+	    function wztg17(st, wh){
+        var bt = $(".main_20").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+          $(".main_20").find(".ban20_1").addClass("effect-pic");
+          $(".main_20").find(".ban20_2").addClass("effect-ill");
+		  $(".main_20").find(".ban20_3").addClass("effect-ill2");
+        }
+      }
+	  
+
+      function wztg2(st, wh){
+        var bt = $(".main_3").offset().top;  
+          
+        if(st + wh >= bt + 200){  
+          $(".main_3").find(".tit1_1").addClass("effect-pic");
+          $(".main_3").find(".tit2").addClass("effect-pic2");
+		  $(".main_3").find(".tit3").addClass("effect-pic2");
+        }
+      }
+
+      function wztg3(st, wh){
+        var bt = $(".main_4").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+           $(".main_4").find(".tit1_1").addClass("effect-pic");
+          $(".main_4").find(".tit2").addClass("effect-pic2");
+		  $(".main_4").find(".tit3").addClass("effect-pic2");
+
+        }
+      }
+
+      function wztg4(st, wh){
+        var bt = $(".main_5").offset().top;      
+        if(st + wh >= bt + 220){  
+          $(".main_5").find(".tit1_1").addClass("effect-pic");
+          $(".main_5").find(".tit2").addClass("effect-pic2");
+		  $(".main_5").find(".tit3").addClass("effect-pic2");
+
+        }
+      }
+	  
+	    function wztg5(st, wh){
+        var bt = $(".main_6").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+          $(".main_6").find(".tit1_1").addClass("effect-pic");
+          $(".main_6").find(".tit2").addClass("effect-pic2");
+
+        }
+      }
+	  
+	    function wztg6(st, wh){
+        var bt = $(".main_7").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+          $(".main_7").find(".tit1_1").addClass("effect-pic");
+          $(".main_7").find(".tit2").addClass("effect-pic2");
+
+        }
+      }
+	  
+	    function wztg7(st, wh){
+        var bt = $(".main_8").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+          $(".main_8").find(".tit1_1").addClass("effect-pic");
+          $(".main_8").find(".tit2").addClass("effect-pic2");
+
+        }
+      }
+	  
+	  
+	    function wztg8(st, wh){
+        var bt = $(".main_9").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+          $(".main_9").find(".tit1_1").addClass("effect-pic");
+          $(".main_9").find(".tit2").addClass("effect-pic2");
+
+        }
+      }
+	  
+	   function wztg9(st, wh){
+        var bt = $(".main_10").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+        /*  $(".main_10").find(".aitxt").addClass("effect-ill");*/
+          $(".main_10").find(".aiimg").addClass("effect-ill2");
+
+        }
+      }
+	  
+	    function wztg10(st, wh){
+        var bt = $(".main_12").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+         $(".main_12").find(".tit1_1").addClass("effect-ill");
+
+        }
+      }
+	  
+	   function wztg11(st, wh){
+        var bt = $(".main_13").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+         $(".main_13").find(".tit1_1").addClass("effect-pic");
+          $(".main_13").find(".tit2").addClass("effect-pic2");
+
+        }
+      }
+	  
+	   function wztg12(st, wh){
+        var bt = $(".main_14").offset().top;  
+          
+        if(st + wh >= bt + 220){  
+         $(".main_14").find(".tit1_1").addClass("effect-pic");
+          $(".main_14").find(".tit2").addClass("effect-pic2");
+
+        }
+      }
+	  
+
+         function wztg13(st, wh){
+        var bt = $(".main_18").offset().top;  
+
+          
+        if(st + wh >= bt + 220){  
+         /* $(".main_11").find(".jftxt").addClass("effect-ill");*/
+          $(".main_18").find(".jkimg").addClass("effect-ill2");
+
+        }
+      }
+
+
+	    function wztg14(st, wh){
+        var bt = $(".main_9").offset().top;  
+
+          
+        if(st + wh >= bt + 220){  
+         /* $(".main_11").find(".jftxt").addClass("effect-ill");*/
+          $(".main_9").find(".keyword1").addClass("feature-icon-animate");
+		  $(".main_9").find(".keyword2").addClass("feature-icon-animate");
+		  $(".main_9").find(".keyword3").addClass("feature-icon-animate");
+		  $(".main_9").find(".keyword4").addClass("feature-icon-animate");
+		  
+		   $(".main_9").find(".keyword1").addClass("animate");
+		  $(".main_9").find(".keyword2").addClass("animate2");
+		  $(".main_9").find(".keyword3").addClass(" animate3");
+		  $(".main_9").find(".keyword4").addClass("animate4");
+
+        }
+      }
+	  
+      function wztg15(st, wh){
+        var bt = $(".main_5").offset().top;   
+        if(st + wh >= bt + 220){  
+          $(".main_5").find(".donghua").css("opacity","1");
+        }
+      }
+
+	  
+    </script>
+<script>
+		!(function(doc){
+		  var domain=location.host;
+		  var m = "http://m.91wzg.com";
+		  var http_referer=doc.referrer?doc.referrer:"";
+		  if(!http_referer){
+			  try{
+				  if(window.opener){
+					  http_referer=window.opener.location.href;
+				  }
+			  }catch(e){}
+		  }
+		  var ua = navigator.userAgent;
+					var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+					isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+					isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+					isMobile = isIphone || isAndroid;
+					if(isMobile) {
+				try{
+				  if(http_referer==null || doc.referrer==""){
+					  location.href=m;
+				  }else{
+					  if(http_referer.indexOf(m)==-1)
+					  {
+						  location.href=m;
+					  }
+				  }
+				}catch(e){}
+					}
+		})(document);
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+if (window.ActiveXObject) {
+  var ua = navigator.userAgent.toLowerCase();
+  var ie=ua.match(/msie ([\d.]+)/)[1]
+if(ie==6.0){
+ alert("您的浏览器版本过低，在本系统中不能达到良好的视觉效果，建议你升级到ie8以上！");
+window.close();
+}
+}
+});
+</script>
+
+<!--置顶效果-->
+<script type="text/javascript" src="http://www.91wzg.com/js/main.js"></script>
+<div class="actGotop"><a href="javascript:;" title="返回顶部"></a></div>
+<script type="text/javascript">
+        $(function () {
+			$('.actGotop').hide();
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 100) {
+                    $('.actGotop').fadeIn(300);
+                } else {
+                    $('.actGotop').fadeOut(300);
+                }
+            });
+            $('.actGotop').click(function () {
+                $('html,body').animate({ scrollTop: '0px' }, 800);
+            });
+        });
+    </script>
+<!--导航下拉菜单js开始-->
+<script type="text/javascript" src="http://www.91wzg.com/js/dh_public.js"></script>
+<!--导航下拉菜单js结束-->
+
+</head>
+<body>
+<div class="actGotop" style="display: block;"> <a href="javascript:;" title="返回顶部"></a> </div>
+<script type="text/javascript">
+        $(function () {
+			$('.actGotop').hide();
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 100) {
+                    $('.actGotop').fadeIn(300);
+                } else {
+                    $('.actGotop').fadeOut(300);
+                }
+            });
+            $('.actGotop').click(function () {
+                $('html,body').animate({ scrollTop: '0px' }, 800);
+            });
+        });
+    </script> 
+<!--导航下拉菜单js开始--> 
+<script type="text/javascript" src="js/dh_public.js"></script> 
+<!--导航下拉菜单js结束--> 
+
+<!--头部导航 begin-->
+<div class="top">
+  <header class="header">
+    <div class="container">
+      <div class="fl left"> <a href="">
+        <h1><img src="images/logo.jpg" alt="网络推广"></h1>
+        <span>非竞价网络推广上市公司</span></a> </div>
+      <p class="gpdm">股票代码：831685</p>
+      <div class="fr nav">
+        <ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp">
+          <li class="active"> <a href="#">首页</a> </li>
+          <li class="dropdown"> <a href="#" title="搜索排名">排名侠</a></li>
+          <li> <a href="#" title="网络推广" >品牌全网推广</a> </li>
+          <li> <a href="#" title="网站托管" >网站托管</a></li>
+          <li class="dropdown">  <a href="#" >总管商学院</a>
+            <div class="dropdown_menu menu2">
+              <dl class="menuldl1">
+                <i></i>
+                <dt>总管资讯</dt>
+                <dd><a href="#">网总管新闻</a></dd>
+                <dd><a href="#">网总管案例</a></dd>
+                <dd><a href="#">互联网资讯</a></dd>
+              </dl>
+              <dl class="menuldl2">
+                <i></i>
+                <dt>总管商学院</dt>
+                <dd><a href="#" >网络推广方案</a></dd>
+                 <dd><a href="#">品牌推广方案</a></dd>
+                 <dd><a href="#" >全网营销推广</a></dd>
+                 <dd><a href="#">搜索排名</a></dd>
+                <dd><a href="#" >seo教程</a></dd>
+                <dd><a href="#" >营销型网站</a></dd>
+              </dl>
+            </div>
+          </li>
+          <li> <a href="#"  rel="nofollow">关于我们</a> </li>
+          <li> <a href="http://u.91wzg.com/" target="_blank" rel="nofollow">客户登录</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+</div>
+<!--头部导航 end-->
+<div class="main">
+  <div class="main_1 main1box">
+    <div class="box">
+      <div class="ban01_img effect-pic mart100"></div>
+      <div class="ban01_ipad effect-pic"></div>
+      <div class="se_hot effect-ill2"><img src="images/se_hot.png"></div>
+      <div class="main1txt f_right">
+        <p class="font60" style="font-weight: 400;font-size: 60px;">7天优化2000词</p>
+        <p style=" font-size:50px;letter-spacing: 7px;">不排首页不花钱</p>
+      </div>
+    </div>
+  </div>
+  <div class="main_5" id="main_5"> 
+    <script src="js/three.min.js"></script> 
+    <script src="js/donghua.js"></script>
+    <div class="ban05_img tit1_1 effect-pic"> </div>
+    <div class="ban05_box">
+      <div class="box">
+        <p class="font60 mart100" style="margin-top:120px;">网总管排名侠以云计算为支撑</p>
+        <div class="features">
+          <dl>
+            <dt><span class="J_jumpNumber webfont">13</span>项</dt>
+            <dd>软件著作权</dd>
+          </dl>
+          <dl>
+            <dt><span class="J_jumpNumber webfont">14</span>个</dt>
+            <dd>骨干节点机房</dd>
+          </dl>
+          <dl>
+            <dt><span class="J_jumpNumber webfont">1000</span>台</dt>
+            <dd>服务器和存储</dd>
+          </dl>
+        </div>
+        <p class="wid660" style="text-align:left">通过OpenStack架构建立私有云资源池，并实现高可用故障转移（HA）、资源智能调配（VDS）、自动备份（Auto-backup）、负载压力分担（NBL）等多种功能，为关键词云推广提供强大的计算能力。</p>
+      </div>
+    </div>
+    <div class="donghua" style="height: 500px; position: absolute; top: 300px; width: 100%; overflow: hidden; opacity: 1;">
+      <canvas width="1440" height="714" style="width: 1440px; height: 714px;"></canvas>
+    </div>
+  </div>
+  <div class="main_9">
+    <div class="meteor-list"> <span class="meteor-item item--11"></span> <span class="meteor-item item--1"></span> <span class="meteor-item item--2"></span> <span class="meteor-item item--3"></span> <span class="meteor-item item--33"></span> </div>
+    <p class="font60 mart80">利用大数据分析出客户搜索词</p>
+    <p class="wid660" style="margin-top: 30px;">什么是客户搜索词？例如：买车不会搜“汽车”，只会搜“什么牌子汽车省油”、“20万的汽车有哪些”。通过大数据分析，利用企业提供的核心关键词，眨眼之间就可挖掘出10000个符合客户搜索习惯的关键词。</p>
+    <div class="llkey">
+      <div class="keyword1 feature-icon-animate animate">
+        <p>什么牌子汽车省油</p>
+        <span class="kword1"></span> </div>
+      <div class="keyword2 feature-icon-animate animate2">
+        <p>装修公司哪家好</p>
+        <span class="kword2"></span> </div>
+      <div class="keyword3 feature-icon-animate  animate3">
+        <p>20万的汽车有哪些</p>
+        <span class="kword3"></span> </div>
+      <div class="keyword4 feature-icon-animate animate4">
+        <p>2019留学生必看</p>
+        <span class="kword4"></span> </div>
+    </div>
+    <div class="gjcbg"></div>
+  </div>
+  <div class="main_10">
+    <div class="box">
+      <div class="aitxt f_left" style="width: 560px;">
+        <p class="font60 corred">AI人工智能</p>
+        <p class="font60" style=" font-size: 50px;">快速实现海量关键词排名</p>
+        <p class="mart30">智能交换友链、智能布局锚文本、智能发外链、智能创造网页（1分钟可产生10000+篇高质量内容）、智能标签布局……采用AI技术才能实现最快1天有排名。</p>
+      </div>
+      <div class="aiimg f_right effect-ill2"></div>
+    </div>
+  </div>
+  <div class="main_8">
+    <p class="font60 mart80">没有网站也可以</p>
+    <div class="wid880">
+      <p>平台基于客户信息，在多个高权重网站上智能生成自己企业的PC网站和手机网站，实现多种终端全覆盖。</p>
+      <p>网站没排名，一切等于零！让企业站在巨人头顶看世界，推广从此不再从0做起，最快1天排在首页。</p>
+    </div>
+    <div class="qywz_img tit1_1 effect-pic"></div>
+    <div class="qysj_img tit2 effect-pic2"></div>
+  </div>
+  
+  
+  <div class="main_7" style="display: none;">
+    <p class="font60 mart80">API直通15家B2B优质平台</p>
+    <p class="wid880">绝非像信息群发软件，通过破解登录验证码，去发送几条免费垃圾信息，并得不到展示或被删除，有损企业形象。网总管通过API接口与15家B2B优质平台建立会员通道，并随机为企业开通5家B2B会员旺铺（尊显身份），无需分别登陆各平台，智能群发不同信息，让关键词排名又快又多。</p>
+    
+    <div class="pcimg tit1_1">
+<!--<div id="demo01" class="flexslider">
+	<ul class="slides">
+		<li><div class="img"><img src="../images/newimages/1.jpg" alt="关键词排名优化" height="457" width"922" /></div></li>
+		<li><div class="img"><img src="../images/newimages/2.jpg" alt="关键词排名优化" height="457" width"922" /></div></li>
+		<li><div class="img"><img src="../images/newimages/3.jpg" alt="关键词排名优化" height="457" width"922" /></div></li>
+		<li><div class="img"><img src="../images/newimages/4.jpg" alt="关键词排名优化" height="457" width"922" /></div></li>
+		<li><div class="img"><img src="../images/newimages/5.jpg" alt="关键词排名优化" height="457" width"922" /></div></li>
+	</ul>
+</div>--><!--flexslider end-->
+
+
+<script type="text/javascript" src="http://www.91wzg.com/js/slider.js"></script> 
+<script type="text/javascript">
+$(function(){
+
+     
+	$('#demo01').flexslider({
+		animation: "slide",
+		direction:"horizontal",
+		easing:"swing"
+	});
+
+	
+});
+</script>
+   </div>
+  </div>
+
+  
+
+  
+  <div class="main_4" style="background:#f8f8f8">
+    <p class="font60 mart80">7天至少2000词排首页</p>
+    <p class="mart30">有些企业会认为不需要那么多关键词，十几个就够了。但是在搜索中，需求1种产品，不同人搜索不同词语，</p>
+    <p>同一产品有N种搜索词，只有业内人去搜品类词或行业词。所以广撒网，才能提升N倍曝光机会，</p>
+    <p>让更多客户找到你。 </p>
+    <div class="gzc tit1_1 effect-pic"></div>
+  </div>
+  <div class="main_17">
+    <div class="box">
+      <p class="font60 mart80">7大搜索引擎全覆盖</p>
+      <p class="wi830" style="width: 900px;"> 关键词排名覆盖百度、360搜索、搜狗搜索、GOOGLE、YAHOO、必应、中国搜索7大搜索引擎，其中包括电脑端和手机端，全网推广不留死角。网总管只针对百度、360搜索、搜狗搜索3大平台排在首页才计费，其它平台全赠送。</p>
+      <div class="wzclass"> <span class="wzcls1"></span> <span class="wzcls2"></span> <span class="wzcls3"></span> <span class="wzcls4"></span> <span class="wzcls5"></span> <span class="wzcls6"></span> <span class="wzcls7"></span> </div>
+    </div>
+    <span class="pulse pulse1"></span> <span class="pulse pulse2"></span> <span class="pulse pulse3"></span> <span class="pulse pulse4"></span> <span class="pulse pulse5"></span> <span class="pulse pulse6"></span> <span class="pulse pulse7"></span> <span class="pulse pulse8"></span> <span class="pulse pulse9"></span> <span class="pulse pulse10"></span> <span class="pulse pulse11"></span> <span class="pulse pulse12"></span> <span class="pulse pulse13"></span> <span class="pulse pulse14"></span> <span class="pulse pulse15"></span> </div>
+  <div class="main_3 main_20">
+    <p class="font60 mart100">网总管，帮你霸占更多首页资源</p>
+    <div class="box box20"> <img src="images/ban20_2.png" alt="关键词排名优化" class="ban20_2 effect-ill"> <img src="images/ban20_1.png" alt="关键词排名优化" class="ban20_1 effect-pic"> <img src="images/ban20_3.png" alt="关键词排名优化" class="ban20_3 effect-ill2"> </div>
+    <p class="font30 mart30"> 网总管<b> + </b>竞价排名<b> = </b>完美结合，让你霸占更多首页资源</p>
+  </div>
+  <div class="main_13">
+    <div class="box2 pmsy tit1_1 effect-pic">
+      <div class="pig_icn "></div>
+    </div>
+    <div class="main_13box">
+      <div class="box">
+        <div class="pmtxt">
+          <p class="font60">不达标不要钱</p>
+          <p class="mart50">排名首页的词每天至少2000个，低于2000个词延期一天，真的打破行业猫腻，为客户结果负责。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main_12">
+    <div class="ban12_img tit1_1 effect-ill"></div>
+    <div class="ban12_box">
+      <div class="box">
+        <div class=" pwjs f_right">
+          <p class="font60">搜索首页多条排名</p>
+          <p class="font60">只按1条计算</p>
+          <p class="mart50">搜索一个关键词，在首页显示多条企业信息，</p>
+          <p>每条信息按一个占位，行业内都按占位数计费，</p>
+          <p>网总管只按1个词计算，最多能省80%的费用。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main_19">
+    <div class="box">
+      <p class="font60 mart80">保姆级服务，简单的流程</p>
+      <p class="mart50 wid660">成交后由“专属总管”对接，提供手机、QQ、微信保姆级在线服务，主人只需喝茶、玩手机看排名就够了。</p>
+    </div>
+    <div class="main19_img"></div>
+  </div>
+  <div class="main_10 main_18">
+    <div class="jkimg effect-ill2"></div>
+    <div class="jkbox">
+      <div class="box">
+        <div class="jktxt f_left">
+          <p class="font60">电脑、手机实时监控</p>
+          <p class="font30">提供电脑、手机云管理平台，让推广数据随时随地了如指掌。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main_14">
+    <div class="box">
+      <div class="pmtxt f_right">
+        <p class="font60">客户在线留言</p>
+        <p class="font60">短信、微信都提醒</p>
+        <p class="mart50">潜在客户在线询盘留言，系统会通过短信、微信同时提醒企业联系人，让每一个商机不流失。</p>
+      </div>
+    </div>
+  </div>
+  <div class="main_2">
+    <div class="ban02_img tit1_1"> </div>
+    <div class="bant02_txt">
+      <div class="box">
+        <p class="font60 mart80">不同于传统SEO</p>
+        <p class="font30 mart30">网总管最快1天见效，远远快于传统1-3个月出效果</p>
+        <p class="font30 mart10">轻松优化超过2000个词，远远高于传统30个词以内</p>
+      </div>
+    </div>
+  </div>
+  <div class="main_6">
+    <p class="font60 mart100">不同于信息推广平台</p>
+    <p class="wid880">花费几千上万开个户，每天还需辛苦发广告，没有效果会说是你发的信息不够多、不够好。</p>
+    <p>信息发布都是为了有更多关键词排名，网总管只给您结果，推广只剩喝茶看报表。</p>
+    <p></p>
+    <div class="qzwz tit1_1"> </div>
+  </div>
+  <div class="main_16">
+    <div class="box">
+      <p class="font60 mart80">排名侠产品对比</p>
+      <div class="platform-list">
+        <table>
+          <tbody>
+            <tr class="top">
+              <td class="first" style="width:145px;"></td>
+              <td class="top-td ios" style="border-left: 1px solid #a8a8a8;"><p>竞价排名</p></td>
+              <td class="top-td ios" style="border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; -ms-border-radius:0px;
+    border-left: 1px solid #a8a8a8; "><p>传统SEO公司</p></td>
+              <td class="top-td ios" style="border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; -ms-border-radius:0px;
+    border-left: 1px solid #a8a8a8; width: 270px;"><p>B2B群发平台、自助信息推广平台</p></td>
+              <td class="top-td pc"><p> 排名侠 </p></td>
+            </tr>
+            <tr class="content-tr">
+              <td class="first one" style="width:160px;"> 排首页词数 </td>
+              <td>根据购买词数</td>
+              <td>30个以内 </td>
+              <td>根据企业信息发布水平，<br>
+                一般数量很少</td>
+              <td class="last tdbgred">至少2000词</td>
+            </tr>
+            <tr class="content-tr">
+              <td class="first"> 上首页周期 </td>
+              <td class="tdbg"> 1天 </td>
+              <td class="tdbg"> 1-3个月 </td>
+              <td class="tdbg"> 1-2个月 </td>
+              <td class="last tdbgred"> 最快1天 </td>
+            </tr>
+            <tr class="content-tr">
+              <td class="first">技术方式</td>
+              <td>点击出价高低者排序</td>
+              <td>发外链、文章更新等传统方式</td>
+              <td>企业手工发布信息</td>
+              <td class="last tdbgred">SAAS模式云计算+大数据分析+<br>
+                AI人工智能海量分发</td>
+            </tr>
+            <tr class="content-tr">
+              <td class="first"> 公司规模 </td>
+              <td class="tdbg">上市公司</td>
+              <td class="tdbg">10人以内</td>
+              <td class="tdbg"> 10-100人 </td>
+              <td class="last tdbgred"> 挂牌公司（股票代码：831685） </td>
+            </tr>
+            <tr class="content-tr nine">
+              <td class="first"> 体验度 </td>
+              <td>自己管理竞价后台，一般需要再招聘竞价专员</td>
+              <td> 没有监控后台，<br>
+                无法实时掌握排名动态 </td>
+              <td> 需要企业手动维护和推广，<br>
+                消耗人力和财力</td>
+              <td class="last tdbgred"> 保姆级服务，企业不用管，只需喝茶看排名</td>
+            </tr>
+            <tr class="content-tr nine">
+              <td class="first seven"> 覆盖平台 </td>
+              <td class="tdbg">自己单一平台</td>
+              <td class="tdbg">可多个平台，不同平台不同费用</td>
+              <td class="tdbg">多个平台</td>
+              <td class="last tdbgred">覆盖7大搜索平台</td>
+            </tr>
+            <tr class="content-tr nine">
+              <td class="first seven"> 计费方式 </td>
+              <td>按点击计费</td>
+              <td>按月计费</td>
+              <td>按年计费</td>
+              <td class="last tdbgred">包年计费</td>
+            </tr>
+            <tr class="content-tr nine">
+              <td class="first seven"> 费用 </td>
+              <td class="tdbg">假如排名2000词，单次点击按2元计算，每天按正常+同行恶意点击200次计算，每月消费是12000元，每年144000元</td>
+              <td class="tdbg">每个平台每词3000-20000元/年</td>
+              <td class="tdbg">推广产品费+编辑工资：4-8万元/年（3300-6600元/月）</td>
+              <td class="last tdbgred">平均每词1分钱（3毛/月）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--底部 begin-->
+<div class="box">
+  <div class="news">
+    <ul class="tg_news fl effect-pic2">
+      <li>
+        <div class="date"> <span>10-11</span></div>
+        <div class="ntxt"> <a href="#">
+          <h3> 做seo对企业有哪些好处？搜索排名专家</h3>
+          <p> 为什么这么多企业都在做seo?做seo到底对企业有哪些好处？今天搜索排名专家就跟大家一一道来。...…</p>
+          </a> </div>
+      </li>
+      <li>
+        <div class="date"> <span>10-11</span></div>
+        <div class="ntxt">  <a href="#">
+          <h3> 有哪些对搜索排名优化比较有效的方法</h3>
+          <p> 一个好的方法往往可以让工作事半功倍，而这在搜索排名优化方面也是一样，那么怎么做呢？...…</p>
+          </a> </div>
+      </li>
+      <li>
+        <div class="date"> <span>10-11</span></div>
+        <div class="ntxt"> <a href="#">
+          <h3> 怎么发外链更有效？搜索排名专家给你</h3>
+          <p> 我们可能每天维护的外链平台会有几十个，上百个都有可能。在这么多平台需要维护的情况下。你肯定...…</p>
+          </a> </div>
+      </li>
+      <li>
+        <div class="date"> <span>10-11</span></div>
+        <div class="ntxt"> <a href="#">
+          <h3> 3个关于搜索排名优化的核心内容，希望</h3>
+          <p> 任何一项工作想要做好，都必须对核心问题做到位，那么具体如何做呢？搜索排名专家就和大家详细的...…</p>
+          </a> </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="bottom">
+  <div class="div_1">
+    <div class="box">
+      <div class="bot_l left">
+        <h5>网总管</h5>
+       网总管(股票代码：831685)，是一家专注于非竞价网络推广的上市公司，现已成为非竞价网络推广行业领跑者，致力于帮助中国2000多万家中小企业解决推广难题。<br>
+       排名侠<br>
+现在竞价推广太烧钱，排名侠非竞价不烧钱，每词每天1分钱，按天计费不怕恶意点击。排名侠以云计算为基础，利用大数据分析+AI人工智能技术，覆盖7大搜索引擎（百度、360搜索、搜狗、GOOGLE、YAHOO、必应、中国搜索），最快可实现1天见效，7天优化2000词，不达标准不要钱。<br>
+      网总管，非竞价网络推广上市公司；10000多家知名企业共同的选择。
+       </div>
+      <!--<div class="bot_m left">
+        <ul class="left">
+          <li>
+            <h5>网总管服务</h5>
+          </li>
+          <li><a href="http://www.91wzg.com/seo/" target="_blank">排名侠</a></li>
+          <li><a href="http://www.91wzg.com/qwtg/" target="_blank">品牌全网推广</a></li>
+          <li><a href="http://www.91wzg.com/tg/" target="_blank">网站托管</a></li>
+          <li><a href="http://www.91wzg.com/agent.html" target="_blank">代理加盟</a></li>
+          <li><a href="http://www.91wzg.com/about/" target="_blank" rel="nofollow">关于我们</a></li>
+          <li><a href="http://u.91wzg.com/" target="_blank" rel="nofollow">客户登陆</a></li>
+        </ul>
+        <ul class="left">
+          <li>
+            <h5>总管资讯</h5>
+          </li>
+          <li><a href="http://www.91wzg.com/study/29/" target="_blank">网总管新闻</a></li>
+          <li><a href="http://www.91wzg.com/study/18/" target="_blank">网总管案例</a></li>
+          <li><a href="http://www.91wzg.com/study/31/" target="_blank">互联网资讯</a></li>
+        </ul>
+        <ul class="left">
+          <li>
+            <h5>总管商学院</h5>
+          </li>
+          <li><a href="http://www.91wzg.com/study/38/" target="_blank">全网推广</a></li>
+          <li><a href="http://www.91wzg.com/study/30/" target="_blank">全网营销</a></li>
+          <li><a href="http://www.91wzg.com/study/9/" target="_blank">品牌推广</a></li>
+          <li><a href="http://www.91wzg.com/study/10/" target="_blank">搜索排名</a></li>
+          <li><a href="http://www.91wzg.com/study/11/" target="_blank">seo教程</a></li>
+          <li><a href="http://www.91wzg.com/study/4/" target="_blank">营销型网站</a></li>
+        </ul>
+      </div>-->
+      <div class="bot_r left">
+        <h5>联系我们</h5>
+        <div><b>张经理 18530989123<br>栗经理 18538555087</b></div>
+        <div class="left"><img src="images/c_meau_3.png" alt="扫一扫加微信咨询">
+          <p>扫一扫加微信咨询</p>
+        </div>
+      
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="div_2">
+    <div class="box"> 网总管（郑州分公司）：郑州市高新区总部企业基地125号整栋楼&nbsp;&nbsp;&nbsp;&nbsp;网总管（北京公司）：北京市中关村大街27号中关村大厦13层&nbsp;&nbsp;&nbsp;&nbsp;经营性ICP/ISP证：京B2-20150015<br>
+      Copyright 2000-2019 All Rights Reserved 亿恩科技@北京国网华通科技有限公司 版权所有 法律顾问：三融律师事务所周跃、裴松龄律师&nbsp; <a id="jgwab" target="_blank" rel="nofollow" href="http://www.miitbeian.gov.cn/"> <font color="white">京ICP备10023308号-3</font></a> </div>
+  </div>
+</div>
+
+<!-- 在线客服-代码 开始 -->
+<div id="rightArrow" style="right: -127px;"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs" style="right: -175px;">
+  <div class="floatDtt"></div>
+  <div class="fl_o">
+    <dl class="fl_o_o">
+      <dt><a title="点击这里给我发消息" id="wzg_qq" href="http://wpa.qq.com/msgrd?v=3&amp;uin=441479092&amp;site=www.enkj.com&amp;menu=yes" target="_blank" rel="nofollow"><img src="images/c_meau_1.png" alt="网总管QQ客服"></a></dt>
+      <dd>QQ咨询</dd>
+    </dl>
+    <dl class="fl_o_o">
+      <dt><img src="images/c_meau_3.png" alt="网总管微信公众平台"></dt>
+      <dd>扫一扫加微信咨询</dd>
+    </dl>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<div class="left_div" id="left_div" style="right: 0px;"></div>
+<script type="text/javascript" src="js/lrtk.js"></script> 
+<!-- 代码 结束 --> 
+
+<!--底部 end-->
+</body>
+</html>
